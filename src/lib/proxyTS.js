@@ -9,7 +9,6 @@ export async function proxyTs(url, headers, req, res) {
   }
 
   const uri = new URL(url);
-
   const options = {
     hostname: uri.hostname,
     port: uri.port,
